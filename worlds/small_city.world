@@ -112,7 +112,8 @@
     <!-- Models Worlds -->
     <!-- Environment -->
     <include>
-      <name>city_terrain_1</name>
+      <name>city_te            ('/' + uav_name + '/odometry_in', '/' + uav_name + '/ground_truth'),
+rrain_1</name>
       <pose>
         0
         0
@@ -142,7 +143,6 @@
       <width>7.4</width>
       <point>-45 -48.7 0.01</point>
       <point>-45 105.0 0.01</point>
-
 
     </road>
 
@@ -202,7 +202,6 @@
       <width>7.4</width>
       <point>120 -48.7 0.01</point>
       <point>120 105.0 0.01</point>
-
 
     </road>
 
@@ -2458,18 +2457,18 @@
               <point>126.60450849718748 -51.49389262614624</point>
               <point>126.67552825814758 -51.354508497187474</point>
               <point>126.7 -51.2</point>
-              <point>126.7 105.2</point>
-              <point>126.67552825814758 105.354508497187474</point>
-              <point>126.60450849718748 105.49389262614624</point>
-              <point>126.49389262614623 105.604508497187474</point>
-              <point>126.35450849718748 105.67552825814758</point>
-              <point>126.2 105.7</point>
-              <point>124.2 105.7</point>
-              <point>124.04549150281252 105.67552825814758</point>
-              <point>123.90610737385377 105.604508497187474</point>
-              <point>123.79549150281252 105.49389262614624</point>
-              <point>123.72447174185243 105.354508497187474</point>
-              <point>123.7 105.2</point>
+              <point>126.7 48.2</point>
+              <point>126.67552825814758 48.354508497187474</point>
+              <point>126.60450849718748 48.49389262614624</point>
+              <point>126.49389262614623 48.604508497187474</point>
+              <point>126.35450849718748 48.67552825814758</point>
+              <point>126.2 48.7</point>
+              <point>124.2 48.7</point>
+              <point>124.04549150281252 48.67552825814758</point>
+              <point>123.90610737385377 48.604508497187474</point>
+              <point>123.79549150281252 48.49389262614624</point>
+              <point>123.72447174185243 48.354508497187474</point>
+              <point>123.7 48.2</point>
             </polyline>
           </geometry>
           <material>
@@ -3839,6 +3838,10 @@
       <uri>model://cardboard_box</uri>
     </include>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> aa31afed5718437f4f3b3da6ee48d16c20ad84ba
     <!-- Block 2 2 -->
 
     <include>
@@ -4896,7 +4899,11 @@
         0
         0
         1.57
+<<<<<<< HEAD
       </pose>247
+=======
+      </pose>
+>>>>>>> aa31afed5718437f4f3b3da6ee48d16c20ad84ba
       <uri>model://telephone_pole</uri>
     </include>
 
